@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Member Management</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <aside class="sidebar">
+        <h2>ASSAKEA CHURCH OF CHRIST</h2>
+        <nav>
+          <a href="home-dashboard.html">Home Dashboard</a>
+          <a href="member-management.html">Member Management</a>
+          <a href="attendance.html">Attendance</a>
+          <a href="offerings.html">Offerings</a>
+          <a href="events.html">Events</a>
+          <a href="departments.html">Department and Ministries</a>
+          <a href="settings.html">Settings</a>
+          <a href="profile.html">Profile</a>
+          <a href="livestreaming.html">Livestreaming</a>
+          <a href="logout.html">Logout</a>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">ASSAKEA CHURCH OF CHRIST</p>
+            <h1>Member Management</h1>
+            <p class="subtext">Maintain a complete and accurate directory of members.</p>
+          </div>
+          <div class="topbar-actions">
+            <button class="theme-toggle" id="themeToggle" type="button">🌙 Dark Mode</button>
+          </div>
+        </header>
+
+        <section class="grid">
+          <article class="panel">
+            <h2>Add New Member</h2>
+            <form>
+              <label>Full Name<input type="text" placeholder="Enter member name" /></label>
+              <label>Phone<input type="tel" placeholder="Enter phone number" /></label>
+              <label>Email<input type="email" placeholder="Enter email address" /></label>
+              <label>Department<input type="text" placeholder="Choir, Youth, Ushering..." /></label>
+              <button type="submit">Save Member</button>
+            </form>
+          </article>
+
+          <article class="panel">
+            <h2>Member List</h2>
+            <ul class="list">
+              <li><strong>Pastor Samuel</strong> — Pastor</li>
+              <li><strong>Grace Mwangi</strong> — Usher</li>
+              <li><strong>Joseph Muli</strong> — Youth Leader</li>
+              <li><strong>Mercy Benta</strong> — Choir</li>
+            </ul>
+          </article>
+        </section>
+      </main>
+    </div>
+    <script src="theme.js"></script>
+  </body>
+</html>

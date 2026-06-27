@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <aside class="sidebar">
+        <h2>ASSAKEA CHURCH OF CHRIST</h2>
+        <nav>
+          <a href="home-dashboard.html">Home Dashboard</a>
+          <a href="member-management.html">Member Management</a>
+          <a href="attendance.html">Attendance</a>
+          <a href="offerings.html">Offerings</a>
+          <a href="events.html">Events</a>
+          <a href="departments.html">Department and Ministries</a>
+          <a href="settings.html">Settings</a>
+          <a href="profile.html">Profile</a>
+          <a href="livestreaming.html">Livestreaming</a>
+          <a href="logout.html">Logout</a>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">ASSAKEA CHURCH OF CHRIST</p>
+            <h1>Home Dashboard</h1>
+            <p class="subtext">A quick overview of church operations managed by the secretary.</p>
+          </div>
+          <div class="topbar-actions">
+            <button class="theme-toggle" id="themeToggle" type="button">🌙 Dark Mode</button>
+          </div>
+        </header>
+
+        <section class="stats">
+          <article class="card highlight">
+            <h3>Members</h3>
+            <p class="value">120</p>
+            <span>Registered members</span>
+          </article>
+          <article class="card">
+            <h3>Attendance</h3>
+            <p class="value">86%</p>
+            <span>Current weekend participation</span>
+          </article>
+          <article class="card">
+            <h3>Offerings</h3>
+            <p class="value">$8,450</p>
+            <span>This month's total giving</span>
+          </article>
+        </section>
+
+        <section class="grid">
+          <article class="panel">
+            <h2>Today's Highlights</h2>
+            <ul class="list">
+              <li>Sunday service planning is in progress.</li>
+              <li>Three departments have upcoming events this week.</li>
+              <li>New member registration is open.</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h2>Upcoming Tasks</h2>
+            <ul class="list">
+              <li>Confirm ushers for Sunday worship.</li>
+              <li>Prepare the offering report.</li>
+              <li>Send reminders for youth fellowship.</li>
+            </ul>
+          </article>
+        </section>
+      </main>
+    </div>
+    <script src="theme.js"></script>
+  </body>
+</html>
